@@ -7,17 +7,21 @@ wjt218
 <html>
 	<head>
 		<script src="snake.js"></script>
+		<link rel="stylesheet" href="style.css">
+		<link rel="icon" type="image/x-icon" href="sprites/headw_orig.png">
 	</head>
 	<body>
-		<div id="snakeboardframe" style="margin:auto; width:700px;"></div>
-		<div id="menuframe" style="margin:auto; width:700px">
-			<div class="score" style="float:left; width:350px; text-align:center">
-				<h2 id="score">Score: 0</h2>
+		<div id="container">
+			<div id="snakeboardframe"></div>
+			<div id="menuframe" style="width:700px">
+				<div class="score">
+					<h2 id="score">Score: 0</h2>
+				</div>
+				<div class="score">
+					<h2 id="high">High: 0</h2>
+				</div>
+				<button id="start">Start</button>
 			</div>
-			<div class="score" style="float:left; width:350px; text-align:center">
-				<h2 id="high">High: 0</h2>
-			</div>
-			<button id="start" class="ui-btn ui-btn" style="float:left">Start</button>
 		</div>
 	</body>
 </html>

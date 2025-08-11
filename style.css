@@ -1,0 +1,31 @@
+body {
+    background-color: darkgreen;
+}
+h2 {
+    color: goldenrod;
+}
+#container {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+#menuframe {
+    width: 700px;
+    margin: auto;
+}
+.score {
+    float: left;
+    width: 350px;
+    text-align: center;
+}
+#start {
+    scale: 2;
+    margin: 0;
+    position: relative;
+    left: 50%;
+    -ms-transform: translateX(-25%);
+    transform: translateX(-25%);
+}
